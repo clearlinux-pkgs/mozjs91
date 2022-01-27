@@ -2,34 +2,34 @@
 # Inspired by the Arch Linux equivalent package.....
 #
 Name     : mozjs91
-Version  : 91.5.0
-Release  : 9
-URL      : https://archive.mozilla.org/pub/firefox/releases/91.5.0esr/source/firefox-91.5.0esr.source.tar.xz
-Source0  : https://archive.mozilla.org/pub/firefox/releases/91.5.0esr/source/firefox-91.5.0esr.source.tar.xz
+Version  : 91.5.1
+Release  : 10
+URL      : https://archive.mozilla.org/pub/firefox/releases/91.5.1esr/source/firefox-91.5.1esr.source.tar.xz
+Source0  : https://archive.mozilla.org/pub/firefox/releases/91.5.1esr/source/firefox-91.5.1esr.source.tar.xz
 Group    : Development/Tools
 Summary  : JavaScript interpreter and libraries
 License  : Apache-2.0 BSD-2-Clause BSD-3-Clause BSD-3-Clause-Clear GPL-2.0 LGPL-2.0 LGPL-2.1 MIT MPL-2.0-no-copyleft-exception
 Requires: mozjs91-bin = %{version}-%{release}
 Requires: mozjs91-lib = %{version}-%{release}
-Requires: pypi-psutil
-Requires: pypi-pyopenssl
-Requires: pypi-pyasn1
-Requires: pypi-wheel
+Requires: psutil
+Requires: pyOpenSSL
+Requires: pyasn1
+Requires: wheel
 BuildRequires : autoconf213
 BuildRequires : icu4c-dev
 BuildRequires : llvm-dev
 BuildRequires : ncurses-dev
 BuildRequires : nspr-dev
-BuildRequires : pypi-pbr
-BuildRequires : pypi-pip
+BuildRequires : pbr
+BuildRequires : pip
 BuildRequires : pkgconfig(libffi)
 BuildRequires : pkgconfig(x11)
-BuildRequires : pypi-psutil
+BuildRequires : psutil
 BuildRequires : python3-core
 BuildRequires : python3-dev
 BuildRequires : readline-dev
 BuildRequires : rustc
-BuildRequires : pypi-setuptools
+BuildRequires : setuptools
 BuildRequires : zlib-dev
 
 Patch1: fix-soname.patch
