@@ -11,25 +11,25 @@ Summary  : JavaScript interpreter and libraries
 License  : Apache-2.0 BSD-2-Clause BSD-3-Clause BSD-3-Clause-Clear GPL-2.0 LGPL-2.0 LGPL-2.1 MIT MPL-2.0-no-copyleft-exception
 Requires: mozjs91-bin = %{version}-%{release}
 Requires: mozjs91-lib = %{version}-%{release}
-Requires: psutil
-Requires: pyOpenSSL
-Requires: pyasn1
-Requires: wheel
+Requires: pypi-psutil
+Requires: pypi-pyopenssl
+Requires: pypi-pyasn1
+Requires: pypi-wheel
 BuildRequires : autoconf213
 BuildRequires : icu4c-dev
 BuildRequires : llvm-dev
 BuildRequires : ncurses-dev
 BuildRequires : nspr-dev
-BuildRequires : pbr
-BuildRequires : pip
+BuildRequires : pypi-pbr
+BuildRequires : pypi-pip
 BuildRequires : pkgconfig(libffi)
 BuildRequires : pkgconfig(x11)
-BuildRequires : psutil
+BuildRequires : pypi-psutil
 BuildRequires : python3-core
 BuildRequires : python3-dev
 BuildRequires : readline-dev
 BuildRequires : rustc
-BuildRequires : setuptools
+BuildRequires : pypi-setuptools
 BuildRequires : zlib-dev
 
 Patch1: fix-soname.patch
