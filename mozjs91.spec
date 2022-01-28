@@ -3,7 +3,7 @@
 #
 Name     : mozjs91
 Version  : 91.5.1
-Release  : 10
+Release  : 11
 URL      : https://archive.mozilla.org/pub/firefox/releases/91.5.1esr/source/firefox-91.5.1esr.source.tar.xz
 Source0  : https://archive.mozilla.org/pub/firefox/releases/91.5.1esr/source/firefox-91.5.1esr.source.tar.xz
 Group    : Development/Tools
