@@ -2,10 +2,10 @@
 # Inspired by the Arch Linux equivalent package.....
 #
 Name     : mozjs91
-Version  : 91.11.0
-Release  : 20
-URL      : https://archive.mozilla.org/pub/firefox/releases/91.11.0esr/source/firefox-91.11.0esr.source.tar.xz
-Source0  : https://archive.mozilla.org/pub/firefox/releases/91.11.0esr/source/firefox-91.11.0esr.source.tar.xz
+Version  : 91.13.0
+Release  : 21
+URL      : https://archive.mozilla.org/pub/firefox/releases/91.13.0esr/source/firefox-91.13.0esr.source.tar.xz
+Source0  : https://archive.mozilla.org/pub/firefox/releases/91.13.0esr/source/firefox-91.13.0esr.source.tar.xz
 Group    : Development/Tools
 Summary  : JavaScript interpreter and libraries
 License  : Apache-2.0 BSD-2-Clause BSD-3-Clause BSD-3-Clause-Clear GPL-2.0 LGPL-2.0 LGPL-2.1 MIT MPL-2.0-no-copyleft-exception
