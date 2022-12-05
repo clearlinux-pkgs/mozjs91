@@ -3,7 +3,7 @@
 #
 Name     : mozjs91
 Version  : 91.13.0
-Release  : 21
+Release  : 22
 URL      : https://archive.mozilla.org/pub/firefox/releases/91.13.0esr/source/firefox-91.13.0esr.source.tar.xz
 Source0  : https://archive.mozilla.org/pub/firefox/releases/91.13.0esr/source/firefox-91.13.0esr.source.tar.xz
 Group    : Development/Tools
@@ -37,6 +37,7 @@ Patch2: copy-headers.patch
 Patch3: init_patch.patch
 Patch4: emitter.patch
 Patch5: spidermonkey_checks_disable.patch
+Patch6: backport-python-3.11.patch
 
 %description
 JavaScript interpreter and libraries - Version 91
@@ -76,6 +77,7 @@ lib components for the mozjs91 package.
 %patch3 -p1
 %patch4 -p1
 %patch5 -p1
+%patch6 -p1
 
 # use system zlib for perf
 rm -rf ../../modules/zlib
